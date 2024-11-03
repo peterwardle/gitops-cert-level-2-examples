@@ -9,8 +9,8 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/codefresh-contrib/gitops-cert-level-2-examples.git
-    targetRevision: HEAD
+    repoURL: https://github.com/peterwardle/gitops-cert-level-2-examples.git
+    targetRevision: gitops-at-scale-207-diff-customization
     path: ./custom-diff/01-with-hpa
    
   destination:
