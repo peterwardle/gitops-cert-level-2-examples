@@ -21,8 +21,8 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/argoproj/argo-cd.git
-        targetRevision: HEAD
+        repoURL: https://github.com/peterwardle/gitops-cert-level-2-examples.git
+        targetRevision: '{{revision}}'
         path: '{{path}}'
       destination:
         server: '{{server}}'
