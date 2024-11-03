@@ -12,7 +12,7 @@ spec:
       - namespace: prod
   template:      
     metadata:
-      name: '{{namespace}}-application'
+      name: '{{namespace}}'
     spec:
       # The project the application belongs to.
       project: default
